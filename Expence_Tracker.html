@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <!-- kharche batane vali app <Tells the spended money in every sector> -->
+    <link rel="stylesheet" href="Expence_style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1 id="heading">Expense Tracker</h1>
+        <p id="item">Add A New Item:</p>
+        <div class="centre">
+            <form id="myform" class="expense">
+                <p id="p-name" class="para"> Name :
+                    <input class="input-class" type="text" id="name" placeholder="Where was the expense made?">
+                </p>
+                <p id="p-date" class="para"> Date :
+                    <input class="input-class" type="date" id="date" placeholder="what's the Date?">
+
+                <p id="p-fees" class="para"> fees :
+                    <input class="input-class" type="number" min="0" max="10000000" step="1"
+                    name="broker-fee" id="fees" placeholder="what is the Cost?">
+                </p>
+                </p>
+                <button id="ex-btn">Add Expense</button>
+            </form>
+        </div>
+        <div class="table-div">
+            <table id="mytable">
+                <tr>
+                    <th>Name</th>
+                    <th>Date</th>
+                    <th>Amount</th>
+                    <th>remove</th>
+                </tr>
+
+                <tr class="mytr">
+                    <td>No expenses added yet!</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <footer class="footer">THis is the my orignal footer @</footer>
+    <script src="Expence_script.js"></script>
+
+</body>
+
+</html>

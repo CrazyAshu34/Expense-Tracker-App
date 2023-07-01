@@ -1,0 +1,128 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+/* js code */
+.myspan{
+    cursor: pointer;
+}
+
+.header {
+    position: relative;
+    min-height: 94vh;
+}
+
+#heading {
+    font-weight: 100;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+#item {
+    color: rgb(34, 207, 66);
+    text-align: center;
+    font-weight: 550;
+    font-family: cursive;
+    margin-top: 0px;
+}
+.input-class{
+    height: 25px;
+}
+#name {
+    width: 777px;
+    margin-left: 10px;
+}
+
+#date {
+    width: 300px;
+    margin-left: 18px;
+    display: inline-block;
+
+}
+
+#fees {
+    width: 400px;
+    margin-left: 10px;
+
+}
+
+.centre {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#p-name {
+    display: block;
+}
+
+/* #p-date {} */
+
+#p-fees {
+    margin-left: 10px;
+
+}
+
+.para {
+    display: inline;
+}
+
+#ex-btn {
+    margin-left: 357px;
+    color: white;
+    background-color: rgb(34, 207, 66);
+    border-radius: 3px;
+    border-color: rgb(34, 207, 66);
+    font-size: x-small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 35px;
+    width: 98px;
+}
+
+#ex-btn:hover {
+    box-shadow: 2px 2px 2px rgb(34, 207, 66);
+}
+
+.table-div {
+    margin-left: 168px;
+    margin-right: 168px;
+}
+
+#mytable {
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    font-family: monospace;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    width: 33%;
+    padding: 7px;
+}
+
+tr:hover {
+    background-color: #D6EEEE;
+}
+
+td {
+    background-color: rgba(188, 188, 197, 0.081);
+    font-size: 15px;
+}
+
+
+.footer {
+    text-align: center;
+    background-color: lightslategrey;
+    color: #ffff;
+    position: absolute;
+    width: 1180px;
+    padding: 5px 5px;
+}
